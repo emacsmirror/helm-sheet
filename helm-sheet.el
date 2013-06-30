@@ -81,7 +81,7 @@ Argument CANDIDATE candidate of `helm-source-sheet'."
     (candidates-in-buffer)
     (action . (("Open" . (lambda (candidate)
                            (find-file (helm-sheet-file candidate))))
-               ("Copy" . helm-sheet-copy))))
+               ("Copies content of the sheet" . helm-sheet-copy))))
   "Show sheet list.")
 
 ;;;###autoload
